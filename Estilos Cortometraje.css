@@ -4,6 +4,7 @@ body{
 }
 *{
 	margin: 0;
+	box-sizing: border-box;
 }
 a{
 	color: white;
@@ -146,8 +147,8 @@ a{
 	align-items: flex-start;
 }
 .cajacont img{
-	height: 100%;
-	width: auto;
+	height: auto;
+	width: 100%;
 	display: block;
 }
 .cajacont iframe{
