@@ -1,0 +1,281 @@
+body{
+	margin: 0;
+	background:#333 ;
+}
+*{
+	margin: 0;
+}
+a{
+	color: white;
+}
+.cajam{
+	color: white;
+	background-image:url(https://images.csmonitor.com/csm/2016/04/977592_1_0426_abandoned_Chernobyl_standard.jpg?alias=standard_1200x800nc) ;
+	padding: 2vw 0 0 0 ;
+	position: static;
+	padding: 3vh;
+}
+.body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+.menup{
+	padding: 1%;
+	background-color: rgba(71, 71, 71, .7);
+	display: flex;
+	gap: 5vw;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1.5vw;
+	color: white;
+	font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+	}
+.header{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-image:url(https://images.csmonitor.com/csm/2016/04/977592_1_0426_abandoned_Chernobyl_standard.jpg?alias=standard_1200x800nc) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-size: clamp(8vw, 5vw, 4vw);
+	letter-spacing: 5px;
+	color: white;
+	padding: 2vw 0 2vw;
+   font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  border-bottom: white solid 2px;
+  position: sticky;
+  top: 0;
+    transition: all 1s ease;
+    display: flex;
+}
+.header.small {
+  font-size: 2vw;
+}
+
+.menu-btn {
+  position: absolute;
+  left: 10px;
+  font-size: 3vw;
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  padding: 0 4vw;
+  color: white;
+}
+
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: -250px; /* oculto */
+  width: 250px;
+  height: 100%;
+  background: #4A4848;
+  padding-top: 60px;
+  transition: 0.3s;
+  z-index: 10000000;
+}
+
+.menu a {
+  display: block;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background: #575757;
+}
+
+.menu.active {
+  left: 0;
+}
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+.caja1{
+	background-color: rgba(71, 71, 71, .7);
+	margin: 2% 15% 2% 15%;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	font-size: clamp(1.5vw, 1vw, 1vw);
+	color: white;
+	padding: 2vw;
+
+
+}
+.img1{
+	width: 75%;
+	display: flex;
+}
+.img1 img{
+	width: 100%;
+	height: 100%;
+}
+.img1 iframe{
+	width: 100%;
+	height: 100%;
+}
+.img1 video{
+	width: 100%;
+	height: 100%;
+}
+.cajacont{
+	display: flex;
+	margin: 2% 15% 2% 15%;
+	
+}
+.cajacont img{
+	height: 100%;
+	width: 100%;
+}
+.cajacont iframe{
+	height: 100%;
+	width: 100%;
+}
+.cajacont video{
+	height: 100%;
+	width: 100%;
+}
+.caja2{
+	background-color: rgba(71, 71, 71, .7);
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	font-size: clamp(1.5vw, 1vw, 1vw);
+	color: white;
+	padding: 2vw;
+	width: 25%;
+	margin: 0 0 0 2%;
+
+}
+.img2{
+	width: 40%;
+	display: flex;
+}
+.img2 img{
+	width: 100%;
+	height: 100%;
+}
+.caja3{
+	background-color: rgba(71, 71, 71, .7);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: clamp(1.5vw, 1vw, 1vw);
+	color: white;
+	padding: 2vw;
+	
+	margin: 2% 30% 2% 30%;
+}
+.caja4{
+	background-color: rgba(71, 71, 71, .7);
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	font-size: clamp(1.5vw, 1vw, 1vw);
+	color: white;
+	padding: 2vw;
+	width: 60%;
+	margin: 0 0 0 2%;
+
+}
+.img3{
+	width: 30%;
+	display: flex;
+	margin: 10% 0 5% 0;
+}
+.img3 img{
+	width: 100%;
+	height: 100%;
+}
+.caja5{
+	background-color: rgba(71, 71, 71, .7);
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	font-size: clamp(1.5vw, 1vw, 1vw);
+	color: white;
+	padding: 2vw;
+	width: 70%;
+	margin: 0 0 0 2%;
+}
+.img4{
+	background-color: rgba(71, 71, 71, .7);
+	margin: 2% 17% 2% 17%;
+	
+}
+.img4 img{
+	width: 100%;
+	height: 100%;
+}
+.img4 video{
+	width: 100%;
+	height: 100%;
+}
+.caja6{
+	background-color: rgba(71, 71, 71, .7);
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	font-size: clamp(1.5vw, 1vw, 1vw);
+	color: white;
+	padding: 2vw;
+}
+.caja7{
+	background-color: rgba(71, 71, 71, .7);
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	font-size: clamp(1.5vw, 1vw, 1vw);
+	color: white;
+	padding: 2vw;
+	margin: 2% 0 0 0;
+}
+.caja7 img{
+	width: 100%;
+	height: 100%;
+}
+.caja7 video{
+	width: 100%;
+	height: 100%;
+}
+
+.img5{
+	background-color: rgba(71, 71, 71, .7);
+	margin: 0 2% 0 0;
+	height: 50%
+}
+.img5 img{
+	width: 100%;
+	height: 100%;
+}
+.img6{
+	background-color: rgba(71, 71, 71, .7);
+	height: 50%
+}
+.img6 img{
+	width: 100%;
+	height: 100%;
+}
+.img4 iframe{
+	width: 100%;
+	height: 100%;
+}
