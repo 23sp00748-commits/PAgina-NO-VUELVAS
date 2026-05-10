@@ -143,7 +143,7 @@ a{
 	display: flex;
 	margin: 2% 15% 2% 15%;
 	flex-shrink: 0;
-	
+	align-items: flex-start;
 }
 .cajacont img{
 	height: 100%;
@@ -207,7 +207,6 @@ a{
 	width: 30%;
 	display: flex;
 	flex-shrink: 0;
-	margin: 10% 0 10% 0;
 }
 .img3 img{
 	width: 100%;
